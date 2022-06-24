@@ -268,8 +268,8 @@ def change_pin():
 
 def load_menu():
     while True:
-        fancy_print("\nACCOUNT OPTIONS: \n\n1. WITHDRAWAL\n\n2. TRANSFER\n\n3. CHECK BALANCE \n\n4. MAKE DEPOSIT\n\n5. CHANGE PIN\n".split('\n'))
-        option = input(f"{Fore.YELLOW}Select preferred option: {Fore.RESET}")
+        fancy_print("\n ACCOUNT OPTIONS: \n\n 1. WITHDRAWAL \n\n 2. TRANSFER \n\n 3. CHECK BALANCE \n\n 4. MAKE DEPOSIT\n\n 5. CHANGE PIN\n".split('\n'))
+        option = input(f"{Fore.YELLOW} Select preferred option: {Fore.RESET}")
         if option == '1':
             withdraw()
             enquire()

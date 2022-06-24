@@ -73,8 +73,8 @@ def authenticate(password):
 def get_customer():
     while True:
         clear()
-        print("\nBOOKING INFORMATION:\n\n")
-        fancy_print("NEW OR EXISTING CUSTOMER?\n\n1. Existing customer\n\n2. New customer\n".split('\n'))
+        print("\n BOOKING INFORMATION:\n\n")
+        fancy_print(" NEW OR EXISTING CUSTOMER?\n\n 1. Existing customer\n\n 2. New customer\n".split('\n'))
         option = input("select preferred option from the list: ")
 
         if option == '1':
@@ -216,9 +216,9 @@ def book_room(room_type):
     connection.execute("UPDATE rooms SET room_availability=0 WHERE room_id=:roomid", {'roomid': room_id})
 
     clear()
-    print("\nWould you like to check in now?\n\n1. Yes\n\n2. No")
+    print("\n Would you like to check in now?\n\n 1. Yes\n\n 2. No")
     while True:
-        option = input("\nselect preferred option: ")
+        option = input("\n select preferred option: ")
         if option == '1' or option.upper() == 'Y' or option.upper() == 'YES':
             connection.execute("UPDATE booked_rooms SET guest_checked_in=1 WHERE room_id =:roomid", {'roomid': room_id})
             break
@@ -254,7 +254,7 @@ def book_hall(hall_type):
 
 def book():
     clear()
-    fancy_print("\n\nBOOKING OPTIONS:\n\n1. Rooms\n2. Halls\n".split('\n'))
+    fancy_print("\n\n BOOKING OPTIONS:\n\n 1. Rooms\n 2. Halls\n".split('\n'))
     b_option = input("select preferred option from the list: ")
 
     if b_option == '1':
@@ -412,7 +412,7 @@ def generate_report():
 
 def load_menu():
     while True:
-        fancy_print(f"\n\nSelect an option from the list(Enter the option number):\n\n1. BOOKING/RESERVATION({Fore.GREEN}1{Fore.RESET})\n\n2. CHECK GUEST IN OR OUT({Fore.GREEN}2{Fore.RESET})\n\n3. CHECK ROOM/HALL AVAILABILITY({Fore.GREEN}3{Fore.RESET})\n\n4. GENERATE REPORT({Fore.GREEN}4{Fore.RESET})\n\n".split('\n'))
+        fancy_print(f"\n\n Select an option from the list(Enter the option number):\n\n 1. BOOKING/RESERVATION({Fore.GREEN}1{Fore.RESET})\n\n 2. CHECK GUEST IN OR OUT({Fore.GREEN}2{Fore.RESET})\n\n 3. CHECK ROOM/HALL AVAILABILITY({Fore.GREEN}3{Fore.RESET})\n\n 4. GENERATE REPORT({Fore.GREEN}4{Fore.RESET})\n\n".split('\n'))
         option = input(Fore.GREEN + "OPTION: " + Fore.RESET)
         if option == '1':
             book()
