@@ -1,5 +1,5 @@
 # CASH-OUT 🌚 ATM (Automated Teller Machine) simulator
-![ATM] (https://i.imgur.com/UKKtawK.png)
+![ATM](https://i.imgur.com/UKKtawK.png)
 
 ## Description
 A CLI based database driven ATM simulator coded in Python.
@@ -34,7 +34,7 @@ python atm.py
 ```
 
 ### ATM Options
-![ATM Options] (https://i.imgur.com/I9vD9uu.png)
+![ATM Options](https://i.imgur.com/I9vD9uu.png)
 
 ### The ATM Simulator simulates the following seamlessly:
 
@@ -47,5 +47,5 @@ python atm.py
 
 ### Transfers Menu:
 
-![ATM receiving accounts] (https://i.imgur.com/bT47Byj.png)
+![ATM receiving accounts](https://i.imgur.com/bT47Byj.png)
 

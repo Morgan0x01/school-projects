@@ -1,5 +1,5 @@
 # ROOM 306😏 HMS (Hotel Management System)
-![HMS] (https://i.imgur.com/Pj2JYb8.png)
+![HMS](https://i.imgur.com/Pj2JYb8.png)
 
 ## Description
 A CLI based database driven miniature hotel management system coded in Python.
@@ -34,7 +34,7 @@ python hotel.py
 ```
 
 ### HMS MENU
-![HMS Menu] (https://i.imgur.com/xfSS9nY.png)
+![HMS Menu](https://i.imgur.com/xfSS9nY.png)
 
 ### The HMS handles the following seamlessly:
 
@@ -47,5 +47,5 @@ python hotel.py
 
 ### Available Rooms View:
 
-![ATM receiving accounts] (https://i.imgur.com/YlrJrkJ.png)
+![ATM receiving accounts](https://i.imgur.com/YlrJrkJ.png)
 
