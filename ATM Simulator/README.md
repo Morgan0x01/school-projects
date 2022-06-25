@@ -47,5 +47,5 @@ python atm.py
 
 ### Transfers Menu:
 
-![ATM receiving accounts](https://i.imgur.com/bT47Byj.png)
+![ATM receiving accounts](https://gyazo.com/51629090306318cce22d7cdcb8413c68)
 
