@@ -23,18 +23,18 @@ connection = sqlite3.connect('ATM.db')
 
 ### Dependency Installation:
 
-```python
+```
 pip install -r requirements.txt
 ```
 
 ### Usage:
 
-```python
+```
 python atm.py
 ```
 
 ### ATM Options
-![ATM Options](https://i.imgur.com/I9vD9uu.png)
+![ATM Options](https://i.imgur.com/fvZKgk7.png)
 
 ### The ATM Simulator simulates the following seamlessly:
 
@@ -47,5 +47,5 @@ python atm.py
 
 ### Transfers Menu:
 
-![ATM receiving accounts](https://i.gyazo.com/51629090306318cce22d7cdcb8413c68.mp4)
+![ATM receiving accounts](https://i.gyazo.com/51629090306318cce22d7cdcb8413c68.gif)
 

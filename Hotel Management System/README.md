@@ -23,13 +23,13 @@ connection = sqlite3.connect('ATM.db')
 
 ### Dependency Installation:
 
-```python
+```
 pip install -r requirements.txt
 ```
 
 ### Usage:
 
-```python
+```
 python hotel.py
 ```
 
@@ -47,5 +47,5 @@ python hotel.py
 
 ### Available Rooms View:
 
-![ATM receiving accounts](https://i.gyazo.com/926d2085629acf68aa6ca2bf432a803e.mp4)
+![ATM receiving accounts](https://i.gyazo.com/926d2085629acf68aa6ca2bf432a803e.gif)
 
