@@ -47,5 +47,5 @@ python hotel.py
 
 ### Available Rooms View:
 
-![ATM receiving accounts](https://gyazo.com/926d2085629acf68aa6ca2bf432a803e)
+![ATM receiving accounts](https://i.gyazo.com/926d2085629acf68aa6ca2bf432a803e.mp4)
 
